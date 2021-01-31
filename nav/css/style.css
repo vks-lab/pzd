@@ -1,0 +1,835 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.logo
+{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 16px;
+  margin: 0px 81px;
+}
+.nav-links
+{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.nav-links li
+{
+    list-style: none;
+}
+
+.nav-links li a.active{
+    color: red;
+}
+
+
+.nav-links a
+{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.clik
+{
+    height: 50px;
+    width: 9%;
+    background-color: rgb(245, 210, 10);
+    text-align: center;
+}
+.btn-sm
+{
+    font-size: 13px;
+    border: none;
+    height: 50%;
+    margin: 10px 1px;
+    background-color: rgb(245, 210, 10);
+    color: white;
+
+}
+
+.burger
+{
+    display: none;
+}
+.burger div
+{
+display: none;
+ width: 25px;
+ height: 3px;
+ background-color: black;
+ margin: 5px;
+}
+.container
+{
+    height: 526px;
+   background-color: rgb(174, 238, 240);
+   max-width: 100%;
+   display: flex;
+   font-family: 'Roboto', sans-serif;
+  
+}
+ .head
+ {
+    
+    font-size: 27px;
+    margin: auto 7rem;
+}
+.heading
+{
+    font-size: 78px;
+    color: white;
+
+}
+#search
+{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px  solid gray;
+    border-radius: 9px;
+}
+.btn
+{
+    padding: 8px 20px;
+    margin: 17px 3px;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 500px;
+    background: none;
+    color: black;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+   
+}
+
+.color{
+   
+    width: 6px;
+    height: 38px;
+    background-color: yellow;
+    transform: translate(5px , -58px);
+} 
+.article
+{
+    height: 140px;
+    background-color: rgb(250, 244, 244);
+    max-width: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center; 
+    
+}
+.wrapper ul
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 25px 42px;
+  background: #101214;
+}
+.wrapper ul li 
+{
+    margin: 0 12px;
+    padding: 12px 0;
+   border-right: 1px solid #2F3031;
+
+}
+.wrapper ul li a 
+{   
+    padding: 16px 12px;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    color: #E2EAF0;
+    
+
+}
+.wrapper ul li:hover
+{
+    background: rgba(187, 147, 14, 0.973);
+}
+.hero
+{
+    height: 480px;
+    background-color: rgb(250, 244, 244);
+    max-width: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content:right; 
+    color: black;
+    padding: 0px 8rem;
+    line-height: 25px;
+      
+}
+.heads
+{
+    font-size: 17px;
+     
+}
+.up
+{
+    margin: -4px 15px;
+}
+.colorj
+{
+    width: 6px;
+    height: 42px;
+    background-color:yellow;
+    transform: translate(5px , -58px);
+}  
+
+.colors
+{
+    width: 6px;
+    height: 39px;
+    background-color: red;
+    transform: translate(5px , -58px);
+}
+.paper ul
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 16px -1px;
+  background:  rgb(250, 248, 248);;
+}
+.paper ul li 
+{
+    margin: 0 12px;
+    padding: 12px 5px;
+   border-right: 1px solid gray;
+
+}
+.paper ul li a 
+{   
+    padding: 16px 12px;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    color: black;
+    
+
+}
+.paper ul li:hover
+{
+    background: rgba(187, 147, 14, 0.973);
+}
+.bulid
+{
+    height: 200px;
+    background-color: #fff;
+    max-width: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content:right; 
+    color: black;
+    padding:8rem;
+    line-height: 25px;
+  
+ 
+}
+.rope
+{  
+      font-size: 17px;
+    margin: -5px 5rem;
+    display: inline-flex;
+  
+}
+    
+
+.images
+{
+    height: 5rem;
+    width: 38%;
+    margin: -26px 16px;
+}
+
+.left-nav
+{
+   
+    height: 521px;
+    background-color: #fff;
+    max-width: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content:right; 
+    color: black;
+    padding: 0px 8rem;
+    line-height: 25px;
+       
+}
+
+.left-bar
+{
+    background-color: rgb(230, 225, 225);
+    width: 5%;
+    height: 65%;
+    
+    
+}
+.left-bar ul li {
+    text-align: center;
+    list-style: none;
+    padding: 16px;
+
+}
+.left-bar ul li i:hover
+{
+    background-color: red;
+}
+.juke
+{
+    height: 328px;
+    margin: 0px 55px;
+}
+.banner-one .box-one
+{
+   display: flex;
+   justify-content: right;
+}
+.box-one
+{
+    background-color: black;
+    color: white;
+    margin: -7px 55px;
+    font-size: 8px;
+   
+}
+.box-one h1{
+    margin: 0px 30px;
+}
+.banner-two
+{
+     text-align: right;
+}
+.box-two
+{
+    width: 95%;
+    height: 9rem;
+}
+.box
+{
+    background-color: black;
+    font-size: 8px;
+    color: white;
+    text-align: left;
+    width: 95%;
+    margin: -7px 17px;
+    padding: 0px 6px;
+}
+.huy
+{
+    width: 95%;
+    height: 9rem;
+    margin: 22px 16px;
+    border: 1px solid;
+} 
+.xoxo
+{
+    background-color: black;
+    font-size: 8px;
+    color: white;
+    text-align: left;
+    width: 96%;
+    margin: -29px 15px;
+    padding: 0px 8px;
+}
+.bars
+{
+    background-color: rgb(204, 255, 250);
+    display: flex;
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center; 
+}
+.bob
+{
+    background-color: rgb(240, 199, 15);
+    display: flex;
+    height: 100px;
+    width: 80%;
+    margin-top: -37px;
+    color: white;
+}
+.nav-one
+{
+    margin: 17px 10px;
+    font-size: 14px;
+    
+}
+.top p
+{
+    font-size: 12px;
+    margin: 0px 11px;
+}
+
+.hook
+{
+    height: 100px;
+    width: 52%;
+    margin: 0px 44px;
+}
+.bton
+{
+    padding: 8px 20px;
+    margin: 28px 28px;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 500px;
+    background: none;
+    color: black;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+     
+} 
+.colorv
+{
+    width: 6px;
+    height: 39px;
+    background-color: red;
+    transform: translate(29px , -69px); 
+} 
+.pop
+{
+    background-color: rgb(204, 255, 250);
+    display: flex;
+    height: 95px;
+    max-width: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;   
+}
+.colorg
+{
+    width: 40%;
+    height: 7px;
+    background-color: yellow;
+    transform: translate(37px , -53px);
+    margin: 60px 10px;
+}
+.four-square
+{
+    background-color: rgb(204, 255, 250);
+    display: flex;
+    height: 670px;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif; 
+    display: flex;
+    
+    
+   
+} 
+.gap
+{
+    height: 92%;
+    width: 40%; 
+    
+} 
+ .gap .ground
+{
+    background-color: #fff;
+    width: 78%;
+    height: 29%;
+    font-size: 12px;
+    margin: 0px 60px;
+}
+.ground h1
+{
+    text-align: center;
+    padding: 25px 0px;
+}
+.ground p
+{
+    color: rgb(153, 149, 149);
+    padding: 0px 15px;
+}
+.gap .ground-one
+{
+    background-color: #fff;
+    width: 78%;
+    height: 29%;
+    font-size: 12px;
+    margin: 78px 60px;
+}
+.ground-one h1
+{
+    text-align: center;
+    padding: 25px 0px;
+}
+.ground-one p
+{
+    color: rgb(153, 149, 149);
+    padding: 0px 15px;
+}
+.gif
+{
+    height: 65%;
+    width: 75%;
+    margin: 0px -30px;
+}  
+.cuo
+{
+    
+    text-align: center;
+
+  
+}  
+.last-part
+{
+    background-color: #fff;
+    display: flex;
+    height: 280px;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif; 
+   
+     
+}
+.ajex
+{
+    
+    width: 73%;
+    height: 18rem;
+    margin: 0px 57px;
+}
+.start
+{
+    margin: -100px 0px;
+}
+.tup
+{
+    width: 47%;
+    height: 18rem;
+    background-color: black;
+    margin: -100px -157px;
+    padding: 20px 52px;
+    
+
+}
+
+.tup h1
+{
+    color: #fff;
+    font-size: 21px;
+    padding: 11px 37px;
+    
+}
+.tup p
+{
+    font-size: 13px;
+    color: gray;
+}
+.colorf
+{
+    width: 1%;
+    height: 66px;
+    background-color: yellow;
+    transform: translate(37px , -53px);
+    margin: 60px 10px;
+}
+.btof
+{
+    padding: 8px 20px;
+    margin: 28px 28px;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 500px;
+    background:red;
+    color:white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.mike
+{
+    background-color: #fff;
+    display: flex;
+    height: 213px;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+       
+}
+.bike
+{
+   color: red;
+   font-size: 12px;
+   margin: 0px 50px;
+} 
+.bike h1
+{
+    color: gray;
+    font-size: 24px;
+    font-weight: 50;
+    line-height: 46px;
+}  
+
+.rooh
+{
+    
+    justify-content: right;
+    margin: 15px 12px;
+}
+
+.vamp
+{
+    display: flex;
+}
+.btv
+{
+    padding: 7px 12px;
+    margin: 17px 3px;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-weight: 500px;
+    background: none;
+    color: black;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+}
+.colorz
+{
+    width: 5px;
+    height: 35px;
+    background-color:red;
+    transform: translate(5px , -58px);
+    margin: 4px 0px; 
+}
+.guts
+{
+    text-align: right;
+    width: 60%;
+    height: 120%;
+    margin: -92px 0px;
+}
+.guts img
+{
+    height: 306px;
+    width: 79%;
+    margin: 0px -14px;
+}
+.rupw
+{
+  
+    background-color: rgb(204, 255, 250);
+    display: flex;
+    height: 150px;
+    max-width: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;   
+}  
+.flop
+{
+    font-size: 14px;
+    margin: 32px 0px;
+    text-align: center;
+}
+.colorx
+{
+    width: 69%;
+    height: 7px;
+    background-color:rgb(212, 61, 61);
+    transform: translate(37px , -53px);
+    margin: 60px -20px;
+
+}
+.pox
+{
+    height: 59px;
+    width: 13%;
+    margin: 0px 12px;
+}
+.fog
+{
+    background-color: rgb(204, 255, 250);
+    display: flex;
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align: center; 
+}
+.footer
+{
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    height: 420px;
+    max-width: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-self: center;
+   
+} 
+.main-footer
+{
+    display: flex;
+    justify-content: center;
+    border: 1px snow;
+    width: 50%;
+
+}
+.foot-one
+{
+  border: 1px white;
+  margin: auto 12rem; 
+  display: list-item;
+}
+.foot-one img
+{
+   
+    height: 52px;
+    width: 17%;
+    margin: -7rem 0px;
+}
+.foot-one h3
+{
+    color: snow;
+    margin: 16px 59px;
+    line-height: 9rem;
+}
+.par
+{
+   margin: auto; 
+   color:gray;
+}
+.cv
+{
+    display: flex;
+    color:rgb(153, 152, 152);
+    list-style: none;
+    margin: 6px 0px;
+}
+.cv i
+{
+    padding: 13px 5px;
+}
+.foot-two
+{
+    text-align: left;
+    display: flex;
+    width: 40%;
+    margin: 8rem 0px;
+}
+.aria
+{
+    height: 20px;
+    width: 100%;
+    color: white;
+}
+.bill
+{
+    display: flex;
+    color: rgb(179, 176, 176);
+    list-style: none;
+}
+.bill-one
+{
+    margin: 70px 0px;
+    font-size: 15px;
+}
+.bill-one li
+{
+    padding: 13px 0px;
+}
+
+.bill-too 
+{
+    margin: 70px 36px;
+    font-size: 15px;
+}
+.bill-too li
+{
+    padding: 13px 0px;  
+}
+
+.puck
+{
+    
+    list-style: none;
+    color: rgb(185, 183, 183);
+    margin: 59px 0px;
+    display: flex;
+    
+}
+.puck p
+{
+    margin: 0px 20px;
+}
+
+.vok
+{
+    list-style: none;
+    display: flex;
+    color: rgb(177, 172, 172);
+}
+.vok p
+{
+    
+  margin: 0px 20px;  
+} 
+.last-sec
+{
+    background-color:  rgb(59, 57, 57);
+    display: flex;
+    height: 70px;
+    max-width: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;  
+} 
+.last-heading
+{
+    color: rgb(180, 176, 176);
+    background-color: black;
+    width: 80%;
+    height: 38px;
+   text-align: center;
+  padding: 2px 0px;
+   font-size: 13px;
+   letter-spacing: 1px;
+}
+.last-heading p
+{
+    padding: 7px 0px;
+}
+
+
+@media screen and (max-width:1059px){
+    body{
+        
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .nav-links{
+        position: absolute
+        ;
+    }
+
+  
