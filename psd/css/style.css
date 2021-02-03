@@ -1,0 +1,164 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.top
+{
+    background-color: black;
+    height: 20%;
+
+  
+}
+.list
+{
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.list li a
+{
+    color: white;
+    padding: 0px 12px;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0px 29px;
+}
+
+.navlist
+{
+  height: 50%; 
+  display: flex;
+  list-style: none;
+ 
+}
+
+.navlist ul
+{
+  width: 50%;
+  list-style: none;
+  display: flex;
+  margin: 0px auto;
+  margin-top: 25px
+
+}
+
+.navlist ul li a
+{
+    text-decoration: none;
+    padding: 17px;
+    text-align: ;
+    margin: 2px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.img
+{
+    
+    width: 7%;
+    margin: 0px 84px;
+    
+}
+
+.btn
+{
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    background-color: yellow;
+    padding: 19px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-sm
+{
+    margin: 0px auto;
+    background-color: yellow;
+    border: none;
+}
+.heading
+{
+  
+    margin: 18px 0px;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+main{
+   height:90vh;
+   background-color:rgb(154, 208, 224);
+   display: flex;
+   
+}
+
+.firsthalf
+{
+    margin-top: auto;
+    font-size: 27px;
+    margin: 15px 79px;
+
+}
+.pop
+{
+    margin-top: 9rem;
+}
+.tag
+{
+    font-size: 77px;
+    color: white;
+}
+   
+.firsthalf p
+{
+    font-size: 19px;
+}
+.btnon
+{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid black;
+    border-radius: 2;
+    font-size: 16px;
+    background: none;
+    color: black;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin: 15px 3px;
+}
+.dread
+{
+    background-color: whitesmoke;
+    color: black;
+    margin: 82px 9rem;
+    font-size: 20px;
+    
+}
+
+section
+{
+    height: 100vh;
+    background-color: rgb(247, 239, 239);
+}
+.navlis
+{
+    
+    height: 20px;
+    display: flex;
+    padding: 21px;
+}
+.navlis li
+{
+    
+    background-color: black;
+    display: flex;
+    padding: 21px;
+    color: white;
+}
+
