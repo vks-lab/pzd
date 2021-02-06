@@ -1,0 +1,780 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+nav
+{
+    background-image: url(https://preview.colorlib.com/theme/nurture/images/hero_bg.jpg);
+    height: 730px;
+    max-width: 100%;
+    
+}
+.head
+{
+    display: flex;
+}
+.leftnav
+{
+    display: flex;
+    color: white;
+    width: 56%;
+    justify-content: center;
+}
+.icons
+{
+   margin: 30px 16px;
+   display: flex;
+}
+.icons i
+{
+    margin: 0px 5px;
+}
+.rightnav
+{
+    display: flex;
+    color: white;
+    width: 50%;
+    justify-content: center;  
+}
+.icon
+{
+    margin: 30px 16px;
+    display: flex;   
+}
+.sec-nav
+{
+    display: flex;
+    width: 100%;
+    font-size: 27px;
+   
+}
+.leftna h1
+{
+    display: flex;
+    width: 50%;
+    font-size: 30px;
+    margin: 8px 0px;
+}
+.leftna
+{
+    display: flex;
+    color: white;
+    width: 26%;
+    justify-content: center;
+}
+.rightna
+{
+    display: flex;
+    color: white;
+    width: 45%;
+    justify-content: center;  
+}
+.home ul 
+{
+    display: flex;
+    list-style: none;
+    font-size: 17px;
+    margin: 43px 0px;
+}
+.home ul li a
+{
+    color: rgb(177, 176, 176);
+    text-decoration: none;
+    padding: 0px 12px;
+}
+.home ul li a:hover
+{
+ color: white;
+}
+.btn
+{
+    width: 90px;
+    margin: 25px 78px;
+}
+button
+{
+    width: 113px;
+    height: 42px;
+    border:none;
+    background-color: #20c997;
+    border-radius: 25px;
+    color: white;
+}
+button:hover
+{
+    cursor: pointer;
+    
+}
+.head-section
+{
+    height: 500px;
+    max-width: 100%;
+}
+.best-head
+{
+    height: 150px;
+    width: 45%;
+    margin: 42px 0px;
+
+}
+.best-head h2
+{
+    color: white;
+    font-size: 58px;
+    float: right;
+}
+.test-head
+{
+    height: 150px;
+    width: 40%;
+    margin: -18px 0px;
+
+}
+.test-head p
+{
+    color: white;
+    font-size: 21px;
+    float: right;  
+}
+.btn-sm
+{
+    width: 92%;
+    margin: -20px 0px;
+    float: right
+}
+.pock
+{
+    width: 113px;
+    height: 42px;
+    border:none;
+    background-color: #20c997;
+    border-radius: 25px;
+    color: white; 
+}
+.pock:hover
+{
+    cursor: pointer;
+}
+main
+{
+    height: 1120px;
+    max-width: 100%;
+}
+.boxes
+{
+   height: 300px;
+  max-width: 100%;
+}
+.big-box
+{
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    
+    display: flex;
+}
+.one
+{
+    position: relative;
+    z-index: 8;
+    padding: 30px;
+    margin-top: -50px;
+    margin-left: 124px;
+    background-color: #5cb100;
+    height: 87%;
+    width: 26%;
+    color: white;
+}
+.one i
+{
+    font-size: 1.9rem;
+    color: white;
+}
+.one h3
+{
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.one p
+{
+    color:rgb(206, 206, 206);
+    font-size: 20px;
+}
+.two
+{
+    position: relative;
+    z-index: 8;
+    padding: 30px;
+    margin-top: -50px;
+    margin-left: 74px;
+    margin-right: 97px;
+    background-color: #fd7e14;
+    height: 87%;
+    width: 26%;;  
+}
+.two i
+{
+    font-size: 1.9rem;
+    color: white;
+}
+.two h3
+{
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.two p
+{
+    color:rgb(206, 206, 206);
+    font-size: 20px;
+}
+.three
+{
+    position: relative;
+    z-index: 8;
+    padding: 30px;
+    margin-top: -50px;
+    margin-left: -10px;
+    margin-right: 97px;
+    background-color: #007bff;
+    height: 87%;
+    width: 26%;
+}
+.three i
+{
+    font-size: 1.9rem;
+    color: white;
+}
+.three h3
+{
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.three p
+{
+    color:rgb(206, 206, 206);
+    font-size: 20px;
+}
+.perfect
+{
+    height: 170px;
+    max-width: 100%;
+    
+}
+.big-heading
+{
+    width: 100%;
+   text-align: center;
+}
+.big-heading h1
+{
+    color: #0fb78d;
+    font-size: 43px;
+}
+.fine
+{
+    width: 60px;
+    border-top: 2px solid#fd7e14;
+    margin: 14px auto 10px auto;
+}
+.paras
+{
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    color: gray;
+}
+.jack
+{
+    height: 265px;
+    max-width: 97%;  
+}
+.tag-box
+{
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    display: flex;   
+}
+.small-box
+{
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    display: flex;  
+}
+.four
+{
+    position: relative;
+    z-index: 8;
+    padding: 30px;
+    margin-left: 114px;
+    background-color: rgb(245, 240, 240);
+    height: 65%;
+    width: 32%;
+    color: white;
+}
+.four i
+{
+    font-size: 1.9rem;
+    color:yellowgreen;
+}
+.four h3
+{
+    font-size: 22px;
+    margin: 10px 0px;
+    color: rgb(134, 133, 133);
+    line-height: 40px;
+}
+.four p
+{
+    color: rgb(134, 133, 133);
+    font-size: 20px;
+}
+.five
+{
+    position: relative;
+    z-index: 8;
+    padding: 30px;
+    margin-left: 0px;
+    background-color: rgb(245, 240, 240);
+    height: 65%;
+    width: 32%;
+    color: white; 
+}
+.five i
+{
+    font-size: 1.9rem;
+    color: #fd7e14;
+}
+.five h3
+{
+    font-size: 22px;
+    margin: 10px 0px;
+    color: rgb(134, 133, 133);
+    line-height: 40px;
+}
+.five p
+{
+    color:rgb(134, 133, 133);
+    font-size: 20px;
+}
+.six
+{
+    position: relative;
+    z-index: 8;
+    padding: 30px;
+    margin-left: 0px;
+    background-color: rgb(245, 240, 240);
+    height: 65%;
+    width: 34%;
+    color: white;
+}
+.six i
+{
+    font-size: 1.9rem;
+    color: rgb(0, 217, 255);
+}
+.six h3
+{
+    font-size: 22px;
+    margin: 10px 0px;
+    color: rgb(134, 133, 133);
+    line-height: 40px;
+}
+.six p
+{
+    color: rgb(134, 133, 133);
+    font-size: 20px;
+}
+.third-part
+{
+    background-image:url(https://preview.colorlib.com/theme/nurture/images/hero_bg_2.jpg);
+    height: 500px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+.big-headr
+{
+    padding: 135px;
+    height: 100%;
+}
+.big-headr h1
+{
+ font-size: 50px;
+ color: white;
+ line-height: 78px;
+}
+.big-headr p
+{
+    color: white; 
+    font-size: 25px;
+
+}
+.ctn
+{
+    width: 82%;
+    margin: 25px 78px;
+    text-align: center;
+}
+.fourth-part
+{
+    height: 520px;
+    max-width: 100%;
+    display: flex; 
+}
+.tom
+{
+    height:700px;
+    width: 50%;
+}
+.chang
+{
+   
+    height: 71px;
+    width: 77%;
+    margin: 84px 57px;
+    
+}
+.kine
+{
+    width: 51px;
+    border-top: 2px solid#fd7e14;
+    margin: 0px auto 0px 171px;
+   
+}
+.chang h1
+{
+    font-size: 39px;
+    color: #20c997;
+    margin: 0px 11rem;
+
+}
+.graph
+{
+    height: 80px;
+    width: 82%;
+    color: #212529;
+    font-size: 18px;
+    margin: 25px 170px;
+}
+.three-line
+{
+    height: 107px;
+    width: 82%;
+    color: #212529;
+    font-size: 18px;
+    margin: 25px 170px; 
+    
+}
+.tick
+{
+    height: 20px;
+    width: 82%;
+    color: #212529;
+    font-size: 18px;
+    text-transform: :initial;
+    display: flex;  
+}
+.tick i
+{
+color:#20c997 ;
+
+}
+.tick p
+{
+    margin: 0px 12px;
+}
+.cick
+{
+    height: 20px;
+    width: 82%;
+    color: #212529;
+    font-size: 18px;
+    margin: 19px 0px;
+    display: flex;  
+}
+.cick i
+{
+color:#20c997 ;
+
+}
+.cick p
+{
+    margin: 0px 12px;
+}
+.price
+{
+   
+    height: 90px;
+    width: 82%;
+    color: #212529;
+    font-size: 18px;
+    margin: 25px 170px;
+    display: flex;  
+}
+
+.on h1
+{
+    color:#20c997 ;
+    text-align: left;
+    margin: 0px;
+}
+.off
+{
+    margin: 0px 98px;
+}
+.off h1
+{
+    color:#20c997 ;
+    text-align: left;
+    margin: 0px;  
+}
+.bt2
+{
+    height: 60px;
+    width: 82%;
+    color: #212529;
+    font-size: 18px;
+    margin: 25px 170px;
+    display: flex;  
+}
+.ktn
+{
+    margin: 0px 2px;
+    text-align: center;
+}
+.ptn
+{
+    margin: 0px 5px;
+    text-align: center;
+}
+.ptn button
+{
+    color: #20c997;
+    border: 1px solid;
+    border-color:#20c997;
+    background: none;
+    
+}
+.jerry
+{
+    height:700px;
+    width: 50%;
+}
+.img-fluid
+{
+    height: 500px;
+    width: 100%;
+    margin: 52px 47px;
+}
+.herki
+{
+    height: 300px;
+    width:85% ;
+}
+.fect
+{
+    height: 248px;
+    max-width: 100%;
+    margin-top: 90px;
+    background-color: rgb(235, 231, 231); 
+}
+.poster
+{
+    height: 300px;
+    max-width: 100%;
+    background-color: rgb(235, 231, 231); 
+}
+.too-poster
+{
+ 
+    margin-left: -15px;
+}
+.short
+{
+ height: 100px;
+ width: 100%;
+ display: flex;
+}
+.nok
+{
+    display: flex;
+    height: 235%;
+    width: 77%;
+    background-color: white;
+    margin: 0px 110px;
+}
+.nok img
+{
+    height: 235px;
+    width: 34%;
+    
+}
+.both
+{
+    margin: 1px 8px;
+}
+.both h2
+{
+  color:#20c997;
+  font-size: 26px;
+}
+.both p
+{
+    line-height: 25px;
+    color: rgb(58, 57, 57);
+    margin: 29px 0px;
+}
+.cnok
+{
+    display: flex;
+    height: 235%;
+    width: 77%;
+    background-color: white;
+    margin: 0px 23px;
+}
+.cnok img
+{
+    height: 235px;
+    width: 34%;
+    
+}
+.foteer
+{
+    height: 40%;
+    background: #20c997;
+}
+.last
+{
+    display: flex;
+}
+.last-foot
+{
+    margin-bottom: 0px;
+    padding: 100px 15px 70px ;
+    margin: 60px auto 60px auto;
+    display: flex;
+}
+.last-one
+{
+    
+    margin-left: 89px;
+}
+.last-img
+{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+
+.last-two
+{
+    color: white;
+    width: 214%;
+    text-align: left;
+}
+.last-two p
+{
+    margin-top: 21px;
+    font-size: ;
+}
+hr.last-line
+{
+    width: 102%;
+    border-top: 2px solid rgb(129, 128, 128);
+    margin: 50px auto 10px auto;
+}  
+.end-head
+{
+
+    float: left;
+    display: flex;
+    width: 10%;
+    color: white;
+   
+}
+.end-head li
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+.end-head i
+{
+  
+    width: 13%;
+    font-size: 1.2rem;
+}
+.end-head li i:hover
+{
+    color: rgb(219, 157, 40);
+    cursor: pointer;
+}
+.last-three
+{
+    margin-left: 15rem;
+    display: flex;
+}
+.last-three h1
+{
+    color: white;
+    margin: 12px -103px;
+}
+.box1 ul
+{
+    list-style: none;
+}
+.box1 ul li a
+{
+    text-decoration:none;
+    color: white;
+}
+.box1 ul li
+{
+    margin: 20px 0px;
+}
+.box1
+{
+    margin: 63px 0px;
+}
+.box2
+{
+    margin: 63px 263px;
+}
+.box2 ul
+{
+    list-style: none;
+}
+.box2 ul li
+{
+    margin: 20px 0px; 
+}
+.box2 ul li a
+{
+    text-decoration:none;
+    color: white;
+    padding: 12px 0px;
+}
+.last-three h1
+{
+    margin: 0px -103px;
+}
+.font-last
+{
+    height: 70px;
+    background: #20c997;
+    padding: 25px 0px;
+}
+.font-last p
+{
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0px;
+}
