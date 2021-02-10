@@ -1,0 +1,432 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header
+{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../images/topa.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+
+    
+}
+.rain
+{
+    height: 100vh;
+    width: 246px;
+    background-image: url(../images/rain_PNG.png);
+}
+nav
+{
+    width: 100%;
+    height: 15vh;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.2);
+}
+.logo
+{
+    width: 25rem;
+    text-align: center;
+    
+}
+.animate__bounce
+{
+    animation: heartbeat 3s linear ;
+}
+.menu
+{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+nav .menu a
+{
+    width: 25px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav .menu a:first-child{
+    color: #00b894;
+}
+
+main
+{
+ width: 100%;
+ height: 85vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ color: white;
+}
+section
+{
+
+}
+section h3
+{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+section h1
+{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p
+{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+ 
+section a
+{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+section .btnone
+{
+   
+   background: white;
+   color: black;
+}
+.btnone:hover
+{
+    background: #00b894;
+    color: white; 
+}
+section .btntwo
+{
+    background: #00b894;
+   color: white;
+}
+.btntwo:hover
+{
+    background: white;
+    color: black; 
+}
+.change-content:after
+{
+    content: "Manali";
+    animation:changetext 10s infinite linear;
+    color: #00b894;
+}
+.second-sec
+{
+    width: 100%;
+    height: 740px;
+    text-align: center;
+    
+}
+
+.fine{
+width: 60px;
+border-top: 2px solid #00b894;
+margin: 10px auto 10px auto;
+}
+.bad-box
+{
+    display: flex;
+    width: 80%;
+    margin-left: 120px;
+}
+.bad-box img
+{
+    height: 200px;
+    width: 50%;
+    padding: 12px 12px;
+}
+.fect
+{
+    height: 248px;
+    max-width: 100%;
+    margin-top: 90px;
+   
+}
+.big-heading
+{
+    text-align: center;
+    color: #20c997;
+}
+.paras
+{
+    text-align: center;
+}
+.poster
+{
+    height: 400px;
+    max-width: 100%;
+    
+}
+.too-poster
+{
+ 
+    margin-left: -15px;
+}
+.short
+{
+ height: 100px;
+ width: 100%;
+ display: flex;
+}
+.nok
+{
+    display: flex;
+    height: 235%;
+    width: 77%;
+    background-color:#aaf8e1;
+    margin: 0px 110px;
+}
+.nok img
+{
+    height: 235px;
+    width: 34%;
+    
+}
+.both
+{
+    margin: 1px 8px;
+}
+.both h2
+{
+  color:#20c997;
+  font-size: 26px;
+}
+.both p
+{
+    line-height: 25px;
+    color: rgb(58, 57, 57);
+    margin: 29px 0px;
+}
+.cnok
+{
+    display: flex;
+    height: 235%;
+    width: 77%;
+    background-color: #aaf8e1;
+    margin: 0px 23px;
+}
+.cnok img
+{
+    height: 235px;
+    width: 34%;
+    
+}
+.third-part
+{
+    background-image:url(https://experttravelguide.in/wp-content/uploads/2020/05/Himachal-expert-travel-guide.jpg);
+    height: 500px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+.big-headr
+{
+    padding: 135px;
+    height: 100%;
+}
+.big-headr h1
+{
+ font-size: 50px;
+ color: white;
+ line-height: 78px;
+}
+.big-headr p
+{
+    color: white; 
+    font-size: 25px;
+
+}
+.ctn
+{
+    width: 82%;
+    margin: 25px 78px;
+    text-align: center;
+   
+}
+button{
+    width: 113px;
+    height: 42px;
+    border:none;
+    background-color: #20c997;
+    border-radius: 25px;
+    color: white;
+}
+.foteer
+{
+    height: 60%;
+    background: #20c997;
+}
+.last
+{
+    display: flex;
+}
+.last-foot
+{
+    margin-bottom: 0px;
+    margin: 60px auto 60px auto;
+    display: flex;
+}
+.last-one
+{
+    
+    margin-left: 89px;
+    margin-top: 73px;
+}
+}
+.last-img
+{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+
+.last-two
+{
+    color: white;
+    width: 214%;
+    text-align: left;
+}
+.last-two p
+{
+    margin-top: 21px;
+    font-size: ;
+}
+hr.last-line
+{
+    width: 102%;
+    border-top: 2px solid rgb(129, 128, 128);
+    margin: 50px auto 10px auto;
+}  
+.end-head
+{
+
+    float: left;
+    display: flex;
+    width: 10%;
+    color: white;
+   
+}
+.end-head li
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+.end-head i
+{
+  
+    width: 13%;
+    font-size: 1.2rem;
+}
+.end-head li i:hover
+{
+    color: rgb(219, 157, 40);
+    cursor: pointer;
+}
+.last-three
+{
+    margin-left: 19rem;
+    margin-top: 64px;
+    display: flex;
+}
+.last-three h1
+{
+    margin: 0px -259px;
+}
+}
+.box1 ul
+{
+    list-style: none;
+}
+.box1 ul li a
+{
+    text-decoration:none;
+    color: white;
+}
+.box1 ul li
+{
+    margin: 20px 0px;
+    list-style: none;
+}
+.box1
+{
+    margin: 63px -156px;
+}
+.box2
+{
+    margin: 63px 263px;
+}
+.box2 ul
+{
+    list-style: none;
+}
+.box2 ul li
+{
+    margin: 20px 0px; 
+}
+.box2 ul li a
+{
+    text-decoration:none;
+    color: white;
+    padding: 12px 0px;
+}
+.last-three h1
+{
+    margin: 0px -103px;
+}
+.font-last
+{
+    height: 70px;
+    background: #20c997;
+    padding: 25px 0px;
+}
+.font-last p
+{
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+@keyframes changetext{
+   0%{content:"Gadaraya";}
+    20%{content:'joginder nagar';}
+    35%{content:'kullu';}
+    60%{content:'maclodganj';}
+    80%{content:'palampur';}
+    100%{content: 'baijnath';}
+
+}
+
+
